@@ -1,48 +1,62 @@
 <template>
-<div class="grid">
-  <Navi />
-  <Banner />
-    <MainCon />
- 
+  <b-container fluid>
+    <Navi />
 
-  <Plans/>
-  
-  <Portfolio/>
-    <Footer/>
-      <b-container>
-      <b-row>
-          <b-col>
-              <h2>Hola desde Portfolio</h2>
-          </b-col>
-      </b-row>
+    <Banner />
+    <b-row>
+      <b-col lg="12">
+        <MainCon />
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col lg="12">
+        <Portfolio />
+        
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col lg="12">
+        <About />
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col lg="12">
+        <Contact />
+      </b-col>
+    </b-row>
+    <Trial />
+    <Footer />
   </b-container>
-</div>
-
 </template>
 
 <script>
-import Banner from './Banner';
-import Footer from './Footer';
-import Navi from './Navi';
-import MainCon from './MainCon';
-import Plans from './Plans';
-import Portfolio from './Portfolio';
-
+import Banner from "./Banner";
+import Footer from "./Footer";
+import Navi from "./Navi";
+import MainCon from "./MainCon";
+import Portfolio from "./Portfolio";
+import Contact from "./Contact-templ";
+import About from "./About";
+import Trial from "./Trial";
 export default {
-    name:'Grids',
-    components:{
+  name: "Grids",
+  components: {
     Banner,
     Footer,
     Navi,
     MainCon,
-    Plans,
     Portfolio,
-    }
-}
+    Contact,
+    About,
+    Trial,
+  },
+};
 </script>
 
 <style scoped>
-*{
-background-color: #ece8e1;
+* {
+  background-color: #ece8e1;
+  padding-left: 0%;
+  padding-right: 0%;
 }
 </style>

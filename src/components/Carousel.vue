@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <b-container id="Content">
     <b-carousel
       id="carousel-1"
       v-model="slide"
@@ -55,7 +55,7 @@
       Slide #: {{ slide }}<br>
       Sliding: {{ sliding }}
     </p>
-  </div>
+  </b-container>
 </template>
 
 <script>
@@ -63,6 +63,7 @@
       name:'Carousel',
   }
 </script>
-<style>
+<style lang="scss" scoped>
+@import '../styles/global.scss';
 
 </style>

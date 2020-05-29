@@ -20,7 +20,8 @@ export default {
 <style>
 *{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  
 }
-
+body{
+   overflow-x: hidden;
+}
 </style>
