@@ -1,0 +1,22 @@
+@import 'config';
+@font-face {font-family: "Tungsten Bold"; src: url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.eot"); src: url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.woff") format("woff"), url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.svg#Tungsten Bold") format("svg"); }
+
+$lightColor:#ece8e1;
+$blueColor:#0f1923;
+$fontStack: Tungsten-Bold,arial,georgia,sans-serif;
+$shadow:-.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
+
+@mixin Titles {
+    font-family: $fontStack;
+    font-weight: 400;
+    font-size: 12rem;
+}
+
+#Content {
+   height: 100%;
+}
+
+h1{
+   @include Titles;
+}
+

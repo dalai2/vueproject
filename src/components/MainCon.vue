@@ -6,7 +6,7 @@
       </b-col>
     </b-row>
   <b-row>
-      <b-col id="left">
+      <b-col sm="12" id="left">
         <h1>Tech Stack</h1>
       </b-col>
     </b-row>
@@ -16,12 +16,11 @@
            consectetur adipisicing elit. Quis ea officia error soluta corporis
             harum ipsa facilis quasi nihil vel.</p>
       </b-col>
-      <b-col>
+      <b-col sm="12" lg="8">
         <Carousel/>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, consequatur!</p>
       </b-col>
     </b-row>
-    <p>hola</p>
  </b-container>
 </template>
 
@@ -36,18 +35,21 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang='scss' scoped> 
+@import "../styles/global.scss";
 #Content{
-    height: 100vh;
+    min-height: 100%;
     padding-left: 0%;
     
 }
 #developer{
-  color: #ece8e1;
+  @include Titles;
+  color: $lightColor;
  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   font-size: 15vw;
   margin-left: 0%;
   padding-left: 0%;
+  font-family:Tungsten-Bold;
 }
 #left{
   margin-left:10vw;

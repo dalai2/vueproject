@@ -21,13 +21,13 @@ export default {
 
 .Navi{
     background: transparent;
-    height: 100vh;
+    height: 10vh;
     position: fixed;
     z-index: 3;
     border:#333 1px solid;
-    margin-left: 2.5rem;
+    margin-left: 2%;
         padding-left: 0px;
-    
+    width: 5%;
 
 }
 .Navi > div:nth-child(1){
@@ -36,12 +36,7 @@ export default {
 margin-bottom: 40vh;
    
 }
-ul{
-  
-}
-li {
 
-}
 
 
 

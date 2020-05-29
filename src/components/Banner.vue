@@ -1,50 +1,53 @@
 <template>
   <b-container fluid class="header">
-      <b-row class="marg">
-          <b-col id="me">
+      <b-row  class="marg">
+          <b-col col lg="6" sm="6" id="me">
               <h3>Fullstack Developer</h3>
       <h1 id="title">Dalai Aguirre</h1>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga quos voluptatem minus ipsam at itaque ullam eligendi provident dolorum, omnis illum quia magni fugiat earum nisi molestias! Sunt, sed omnis!</p>      
+      <p>I am Dalai, a front and back end developer with quite a curiosity for data</p>      
           </b-col>
         </b-row>
- 
   </b-container>
 </template>
 
 <script>
+
 export default {
     name: "Banner",
 }
 </script>
 
-<style scoped>
-
+<style lang='scss' scoped>
+@import "../styles/global.scss";
+*{
+    font-family: roboto;
+}
 #me{
-    border-left:1px solid white;
-    border-right:1px solid white;
-    height: 85vh;
+    
+    
     padding: 0px;
-    background-color: rgba(51, 51, 51, .3);
+    background: rgba(15, 25, 35, 0.9);
+border: 2px solid #FBFDFF;
+box-sizing: border-box;
+border-radius: 90px 0px;
     padding-top: 10vh;
-    margin-left: 20vw;
-    margin-right: 2.5rem;
+    text-align: left;
+    
 }
 h3, p  {
     color: whitesmoke;
     z-index: 1;
 }
 
-.marg{
-    margin-left: calc(100% - 52.5rem);
-    text-align:left;
-    
-}
+
  .header {
-     background: url('../assets/trial.jpg');
-     background-position: center;
+     background: url('../assets/banner.jpg');
+     background-position: top center;
+       background-size: cover;
+       
      padding-left: 7.3%;
 padding-right: 7.3%;
-height: 85vh;
+height: 120.5vh;
       }
 
  #title{
@@ -53,6 +56,11 @@ height: 85vh;
     color:white;
     margin-left: 0px;
     text-align: left;
+    text-shadow: 0 0 .12em rgba(0,0,0,.3);
  }
-  
+p{
+    text-align: left;
+    font-family: roboto;
+    font-size: 2rem;
+}
 </style>
