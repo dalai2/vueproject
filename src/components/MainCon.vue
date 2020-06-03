@@ -2,7 +2,7 @@
   <b-container fluid id="Content">
     <b-row>
       <b-col>
-        <h1 id="developer">Development</h1>
+        <h1 id="shadowHeader">Development</h1>
       </b-col>
     </b-row>
   <b-row>
@@ -42,14 +42,9 @@ export default {
     padding-left: 0%;
     
 }
-#developer{
-  @include Titles;
-  color: $lightColor;
- text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  font-size: 15vw;
-  margin-left: 0%;
-  padding-left: 0%;
-  font-family:Tungsten-Bold;
+#shadowHeader{
+  @include shadow_title;
+
 }
 #left{
   margin-left:10vw;

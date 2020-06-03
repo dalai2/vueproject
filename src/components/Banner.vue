@@ -2,6 +2,7 @@
   <b-container fluid class="header">
       <b-row  class="marg">
           <b-col col lg="6" sm="6" id="me">
+              <p>{{  $t('message')  }}</p>
               <h3>Fullstack Developer</h3>
       <h1 id="title">Dalai Aguirre</h1>
       <p>I am Dalai, a front and back end developer with quite a curiosity for data</p>      
@@ -44,12 +45,19 @@ h3, p  {
      background: url('../assets/banner.jpg');
      background-position: top center;
        background-size: cover;
-       
+       position: relative;
      padding-left: 7.3%;
 padding-right: 7.3%;
 height: 120.5vh;
       }
-
+.header:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    border-top: 80px solid white;
+    border-left: 80px solid red;
+    width: 0;
+}
  #title{
      padding: 0px;
      font-size: 120px;

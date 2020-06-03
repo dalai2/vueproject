@@ -1,27 +1,33 @@
 <template>
   <div id="app">
-    <Grids/>
+    <div id="nav">
+      <router-link :to="`/${$i18n.locale}/`">Home</router-link> |
+      <router-link :to="`/${$i18n.locale}/about`">About</router-link>
+    </div>
+    <router-view/>
   </div>
 </template>
+<style lang="scss">
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+#nav {
+  padding: 30px;
 
-<script>
+  a {
+    font-weight: bold;
+    color: #2c3e50;
 
-import Grids from './components/ProjectGrid';
-
-
-export default {
-  name: 'app',
-  components: {
-    Grids,
+    &.router-link-exact-active {
+      color: #42b983;
+    }
   }
 }
-</script>
-
-<style>
-*{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
 body{
-   overflow-x: hidden;
+  overflow-x: hidden;
 }
 </style>
