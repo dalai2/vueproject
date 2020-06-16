@@ -2,23 +2,33 @@
 @font-face {font-family: "Tungsten Bold"; src: url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.eot"); src: url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.woff") format("woff"), url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/561f38b1f4570de0fb8a39d691ab058c.svg#Tungsten Bold") format("svg"); }
 
 $lightColor:#ece8e1;
-$blueColor:#0f1923;
+$blueColor:#182939;
+$redColor:#ff4655;
 $fontStack: Tungsten-Bold,arial,georgia,sans-serif;
 $shadow:-.5px 0 black, 0 .5px black, .5px 0 black, 0 -.5px black;
 
 @mixin Titles {
     font-family: $fontStack;
     font-weight: 400;
-    font-size: 12rem;
+    font-size: 10vw;
 }
 @mixin shadow_title {
    @include Titles;
    color: $lightColor;
    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 15vw;
+    font-size: 14vw;
     margin-left: 0%;
     padding-left: 0%;
-    font-family:Tungsten-Bold;
+    font-family:$fontStack;
+}
+@mixin blue_title {
+   @include Titles;
+   color: $blueColor;
+   text-shadow: -1px 0 $lightColor, 0 1px $lightColor, 1px 0 $lightColor, 0 -1px $lightColor;
+    font-size: 14vw;
+    margin-left: 0%;
+    padding-left: 0%;
+    font-family:$fontStack;
 }
 #Content {
    height: 100%;

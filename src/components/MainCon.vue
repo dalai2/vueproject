@@ -7,14 +7,12 @@
     </b-row>
   <b-row>
       <b-col sm="12" id="left">
-        <h1>Tech Stack</h1>
+        <h1> {{ $t('stack.title') }} </h1>
       </b-col>
     </b-row>
   <b-row>
       <b-col id="left">
-        <p>Lorem ipsum dolor sit amet
-           consectetur adipisicing elit. Quis ea officia error soluta corporis
-            harum ipsa facilis quasi nihil vel.</p>
+        <p> {{ $t('stack.content') }} </p>
       </b-col>
       <b-col sm="12" lg="8">
         <Carousel/>
