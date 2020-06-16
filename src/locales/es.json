@@ -1,0 +1,15 @@
+{
+    "banner": "Desarrollador Fullstack",
+    "portfolio": "Ve a mi Portafolio",
+
+"stack":{
+  "title":"Tecnologia",
+  "content":"Estos son algunos de los lenguajes o tecnologias con las cuales me siento comodo trabajando."
+  },    
+
+  "about":{
+    "title":"Sobre mi",
+    "content": "Soy un desarrollador,si me das dinero o comida te dare algo, usualmente un sitio web, pero las morsas no estan descartadas"
+  }
+}
+  

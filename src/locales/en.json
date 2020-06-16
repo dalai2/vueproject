@@ -1,0 +1,14 @@
+{
+  "banner": "Fullstack Developer",
+  "portfolio": "Go to my Portfolio",
+
+"stack":{
+  "title":"Tech Stack",
+  "content":"This are some of the languages or frameworks i'm comfortable working with."
+},
+
+"about":{
+  "title":"About Me",
+  "content": "I'm a web developer with knowledge in front end with frameworks such as Reactjs and Vuejs. On the back end side i enjoy using Django. Got experience in the data analisis field by assisting in a data analisis course from bedu, where I completed the Fullstack/python course. On the data side I teached students a great variety of tools in order to help them become a data analyst. This tools ranged from the basics of git, to queryng data bases such as mySQL and MariaDB to noSQL mongo data base. Also used Rstudio to teach data sets cleaning and plotting with different packages, covered the basics of python such as data types and operations to jupyter notebooks, with pandas and matplotlib"
+}
+}

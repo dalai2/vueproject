@@ -1,13 +1,9 @@
 <template>
-  <b-container fluid id="Content">
-      <h2>Hola, algun dia sere un formulario de contacto (:!</h2>
-      <b-row>
-        <b-col lg="12">
-<Form />  
-        </b-col>
-        
-      </b-row>
-  </b-container>
+<b-container fluid id="Content" >
+  <hr>
+<h2>Contact me</h2>
+  <Form />
+</b-container>
 </template>
 
 <script>
@@ -24,7 +20,26 @@ export default {
 @import "../styles/global.scss";
 #Content {
   background-color: $blueColor;
-  min-height: 100%; display: flex;
+  min-height: 100%; 
   align-items: center;
+  position: relative;
+  padding:30px 30px;
+}
+h2{
+  color:$lightColor;
+  font-family: $fontStack;
+  @include shadow_title;
+  text-align: center;
+  
+}
+hr{
+  background-color: $lightColor;
+  width: 90%;
+  justify-content: center;
+}
+#shadow{
+  @include blue_title;
+  text-align: left;
+  line-height:0%;
 }
 </style>

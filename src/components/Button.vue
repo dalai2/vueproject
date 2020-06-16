@@ -1,26 +1,27 @@
 <template>
 <button class="btn btn--animation-from-right">
-  <span class="btn__text-static">Cover left</span>
+  <span class="btn__text-static">Submit</span>
   <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">Cover left</span>
+    <span class="btn__text-dynamic-inner">Submit</span>
   </div>
 </button>
 </template>
 
 <script>
 export default {
-    name: 'Trial'
+    name: 'Butt'
 }
 </script>
 
 <style lang='scss' scoped>
+@import "../styles/global.scss";
+
 .btn {
-  padding: 10px 20px;
+  padding: 10px 30px;
   position: relative;
   
-  border: 2px solid #222;
-  color: #fff;
-  background-color: #222;
+  color: $lightColor;
+  background-color: $blueColor;
   position: relative;
   
   overflow: hidden;
@@ -30,9 +31,6 @@ export default {
   font-family: monospace;
   letter-spacing: -1px;
   
-  [class^="btn__text"] {
-    font-size: 24px;
-  }
   
   .btn__text-dynamic,
   .btn__text-dynamic-inner {    
@@ -51,9 +49,8 @@ export default {
   }
   
   .btn__text-dynamic {
-    background-color: #fff;
-    color: #222;
-    
+    background-color: $redColor;
+    color: $lightColor;
     overflow: hidden;
   }
   

@@ -24,7 +24,6 @@
         <Contact />
       </b-col>
     </b-row>
-    <Trial />
     <Footer />
   </b-container>
 </template>
@@ -37,7 +36,6 @@ import MainCon from "./MainCon";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact-templ";
 import About from "./About";
-import Trial from "./Trial";
 export default {
   name: "Grids",
   components: {
@@ -48,7 +46,6 @@ export default {
     Portfolio,
     Contact,
     About,
-    Trial,
   },
 };
 </script>
@@ -59,4 +56,5 @@ export default {
   padding-left: 0%;
   padding-right: 0%;
 }
+
 </style>
