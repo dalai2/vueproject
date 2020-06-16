@@ -1,11 +1,18 @@
 <template>
   <b-container fluid class="header">
       <b-row  class="marg">
-          <b-col col lg="6" sm="6" id="me">
-              <p>{{  $t('message')  }}</p>
-              <h3>Fullstack Developer</h3>
+          <b-col col lg="12" sm="12" id="me">
+              <h3> {{  $t('banner')  }}</h3>
       <h1 id="title">Dalai Aguirre</h1>
-      <p>I am Dalai, a front and back end developer with quite a curiosity for data</p>      
+      <div class="bord">
+         <button class="btn btn--animation-from-right">
+  <span class="btn__text-static">{{  $t('portfolio')  }}</span>
+  <div class="btn__text-dynamic">
+    <span class="btn__text-dynamic-inner">{{  $t('portfolio')  }}</span>
+    </div>
+    </button>
+  </div>
+
           </b-col>
         </b-row>
   </b-container>
@@ -24,15 +31,9 @@ export default {
     font-family: roboto;
 }
 #me{
-    
-    
     padding: 0px;
-    background: rgba(15, 25, 35, 0.9);
-border: 2px solid #FBFDFF;
-box-sizing: border-box;
-border-radius: 90px 0px;
     padding-top: 10vh;
-    text-align: left;
+    text-align: center;
     
 }
 h3, p  {
@@ -42,20 +43,23 @@ h3, p  {
 
 
  .header {
-     background: url('../assets/banner.jpg');
+ background: $blueColor;
+background: linear-gradient(40deg, $blueColor 73%, $redColor 73%); 
      background-position: top center;
        background-size: cover;
        position: relative;
      padding-left: 7.3%;
 padding-right: 7.3%;
-height: 120.5vh;
+height: 90vh;
+padding-top: 10%;
+padding-bottom: 10%;
       }
 .header:before {
     content: '';
     position: absolute;
-    top: 0; right: 0;
-    border-top: 80px solid white;
-    border-left: 80px solid red;
+    bottom: 0; left: 0;
+    border-top: 80px solid $blueColor;
+    border-left: 80px solid $lightColor;
     width: 0;
 }
  #title{
@@ -63,12 +67,71 @@ height: 120.5vh;
      font-size: 120px;
     color:white;
     margin-left: 0px;
-    text-align: left;
+    text-align: center;
     text-shadow: 0 0 .12em rgba(0,0,0,.3);
  }
-p{
-    text-align: left;
-    font-family: roboto;
-    font-size: 2rem;
+ .bord{
+    border: 1px solid $lightColor;
+    padding:5px;
+    margin: 0;
+    display: inline-block;
+    margin-top: 25px;
+}
+.btn {
+  padding: 10px 30px;
+  position: relative;
+  color: $lightColor;
+  background-color: $blueColor;
+  position: relative;
+  
+  overflow: hidden;
+  cursor: pointer;
+  
+  text-transform: uppercase;
+  font-family: monospace;
+  letter-spacing: -1px;
+  
+  
+  .btn__text-dynamic,
+  .btn__text-dynamic-inner {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 2;
+    
+    transition: all ease 0.5s;
+  }
+  
+  .btn__text-dynamic {
+    background-color: $redColor;
+    color: $lightColor;
+    overflow: hidden;
+  }
+  
+  &:hover {
+    .btn__text-dynamic {
+      transform: translateX(-100%);
+    }
+    .btn__text-dynamic-inner {
+      transform: translateX(100%);
+    }
+  }
+}
+
+.btn--animation-from-right {
+    &:hover {
+    .btn__text-dynamic {
+      transform: translateX(100%);
+    }
+    .btn__text-dynamic-inner {
+      transform: translateX(-100%);
+    }
+  }
 }
 </style>

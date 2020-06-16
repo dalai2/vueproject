@@ -1,7 +1,11 @@
 {
-  "message": "hello i18n !!",
-  
+  "banner": "Fullstack Developer",
+  "portfolio": "Go to my Portfolio",
 
+"stack":{
+  "title":"Tech Stack",
+  "content":"This are some of the languages or frameworks i'm comfortable working with."
+},
 
 "about":{
   "title":"About Me",
