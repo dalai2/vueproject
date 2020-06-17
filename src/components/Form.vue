@@ -7,10 +7,6 @@
         :label=" $t('contact.email')  "
         label-for="input-1"
         required
-<<<<<<< HEAD
-=======
-        description="We'll never share your email with anyone else."
->>>>>>> development
       >
         <b-form-input
           id="input-1"
@@ -29,22 +25,14 @@
           :placeholder="$t('contact.name')"
         ></b-form-input>
       </b-form-group>
-<<<<<<< HEAD
       <b-form-group :label="$t('contact.message')" >
           <b-form-textarea
     id="textarea-no-resize"
     :placeholder="$t('contact.title')"
-=======
-      <b-form-group label='Enter your message' >
-          <b-form-textarea
-    id="textarea-no-resize"
-    placeholder="Fixed height textarea"
->>>>>>> development
     rows="3"
     no-resize
   ></b-form-textarea>
       </b-form-group >
-<<<<<<< HEAD
       <div class="bord">
 <button class="btn btn--animation-from-right">
   <span class="btn__text-static"> {{ $t('contact.send') }}</span>
@@ -53,14 +41,6 @@
   </div>
 </button>
 </div>
-=======
-<button class="btn btn--animation-from-right">
-  <span class="btn__text-static">Submit</span>
-  <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">Submit</span>
-  </div>
-</button>
->>>>>>> development
     </b-form>
   </b-container>
 </template>
@@ -100,7 +80,6 @@
 .form-group{
   color:#fff;
 }
-<<<<<<< HEAD
  .bord{
     border: 1px solid $lightColor;
     padding:5px;
@@ -113,14 +92,6 @@
   position: relative;
   color: $lightColor;
   background-color: $blueColor;
-=======
-.btn {
-  padding: 10px 30px;
-  position: relative;
-  
-  color: $blueColor;
-  background-color: $redColor;
->>>>>>> development
   position: relative;
   
   overflow: hidden;
@@ -148,11 +119,7 @@
   }
   
   .btn__text-dynamic {
-<<<<<<< HEAD
     background-color: $redColor;
-=======
-    background-color: $lightColor;
->>>>>>> development
     color: $lightColor;
     overflow: hidden;
   }
@@ -177,8 +144,4 @@
     }
   }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> development
 </style>
