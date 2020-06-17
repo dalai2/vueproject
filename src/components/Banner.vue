@@ -64,7 +64,7 @@ padding-bottom: 10%;
 }
  #title{
      padding: 0px;
-     font-size: 120px;
+     font-size: 5em;
     color:white;
     margin-left: 0px;
     text-align: center;

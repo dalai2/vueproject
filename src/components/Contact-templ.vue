@@ -1,7 +1,7 @@
 <template>
 <b-container fluid id="Content" >
   <hr>
-<h2>Contact me</h2>
+<h2> {{ $t('contact.title') }} </h2>
   <Form />
 </b-container>
 </template>

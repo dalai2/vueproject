@@ -10,6 +10,13 @@
   "about":{
     "title":"Sobre mi",
     "content": "Soy un desarrollador,si me das dinero o comida te dare algo, usualmente un sitio web, pero las morsas no estan descartadas"
+  },
+  "contact":{
+    "title":"Contactame",
+    "email":"Direccion de correo",
+    "name":"Escribe tu nombre",
+    "message":"Escribe tu mensaje",
+    "send":"enviar"
   }
 }
   

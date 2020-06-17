@@ -1,6 +1,6 @@
 <template>
   <div>
-  <b-dropdown id="dropdown-dropright" dropright class="m-2">
+  <b-dropdown id="dropdown-dropright" dropdown variant='dark' class="m-2">
           <template v-slot:button-content>
       <img :src="`/${$i18n.locale}.png`" alt="">
     </template>

@@ -2,7 +2,7 @@
   <b-container fluid class="cont" >
     <b-row>
       <b-col>
-            <a  href=""><span>Based in Mexico</span></a>
+            <span>Based in Mexico</span>
             <br>
 <span>Conctact Me at: <br> aguirredalai6@gmail.com</span>
 <br>

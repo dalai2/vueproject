@@ -1,8 +1,7 @@
 <template>
   <div id="app">
-    <b-navbar sticky id="nav">
+    <b-navbar toggleable="lg" sticky id="nav">
       <router-link :to="`/${$i18n.locale}/`">Home</router-link> |
-      <router-link :to="`/${$i18n.locale}/about`">About</router-link>
       <LangSwitch/>
     </b-navbar>
     <router-view/>
@@ -22,7 +21,7 @@ export default {
   color: #2c3e50;
 }
 #nav {
-  padding: 30px;
+  padding: 10px;
   background-color: #080808;
   position: sticky;
   a {
