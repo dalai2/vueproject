@@ -1,7 +1,11 @@
 <template>
 <b-container fluid id="Content" >
   <hr>
+<<<<<<< HEAD
 <h2> {{ $t('contact.title') }} </h2>
+=======
+<h2>Contact me</h2>
+>>>>>>> development
   <Form />
 </b-container>
 </template>
