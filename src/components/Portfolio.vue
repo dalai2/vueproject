@@ -13,11 +13,7 @@
     
     img-src="/Untitled.png"
     img-alt="Card Image"
-<<<<<<< HEAD
     text-variant="light"
-=======
-    text-variant="dark"
->>>>>>> development
     title="Image Overlay"
     sub-title="Subtitle"
   >
@@ -25,7 +21,6 @@
       Some quick example text to build on the card and make up the bulk of the card's content.
       <br>
       <div class="bord">
-<<<<<<< HEAD
     <a href="https://github.com/dalai2" target="_blank">     <button class="btn btn--animation-from-right">
   <span class="btn__text-static">To github <i class="fab fa-github"></i> </span>
   <div class="btn__text-dynamic">
@@ -39,20 +34,6 @@
   <span class="btn__text-static">Watch Live</span>
   <div class="btn__text-dynamic">
     <span class="btn__text-dynamic-inner">Watch Live</span>
-=======
-         <button class="btn btn--animation-from-right">
-  <span class="btn__text-static">{{  $t('portfolio')  }}</span>
-  <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">{{  $t('portfolio')  }}</span>
-    </div>
-    </button>
-  </div>
-        <div class="bord">
-         <button class="btn btn--animation-from-right">
-  <span class="btn__text-static">{{  $t('portfolio')  }}</span>
-  <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">{{  $t('portfolio')  }}</span>
->>>>>>> development
     </div>
     </button>
   </div>
@@ -73,15 +54,9 @@
       <br>
       <div class="bord">
          <button class="btn btn--animation-from-right">
-<<<<<<< HEAD
   <span class="btn__text-static">To github<i class="fab fa-github"></i> </span>
   <div class="btn__text-dynamic">
     <span class="btn__text-dynamic-inner">To github<i class="fab fa-github"></i></span>
-=======
-  <span class="btn__text-static">{{  $t('portfolio')  }}</span>
-  <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">{{  $t('portfolio')  }}</span>
->>>>>>> development
     </div>
     </button>
   </div>
