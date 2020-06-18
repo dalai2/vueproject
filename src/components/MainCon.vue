@@ -5,47 +5,72 @@
         <h1 id="shadowHeader">Development</h1>
       </b-col>
     </b-row>
-  <b-row>
-      <b-col sm="12" id="left">
-        <h1> {{ $t('stack.title') }} </h1>
-      </b-col>
-    </b-row>
-  <b-row>
+    <b-row>
       <b-col id="left">
-        <p> {{ $t('stack.content') }} </p>
-      </b-col>
-      <b-col sm="12" lg="8">
-        <Carousel/>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, consequatur!</p>
+        <h1>{{ $t("stack.title") }}</h1>
+        <p>{{ $t("stack.content") }}</p>
+        <b-col>
+          <ul>
+            <li>
+              <span class="fab fa-node-js"></span>
+              <span>JavaScript</span>
+            </li>
+
+            <li>
+              <span class="fab fa-vuejs"></span>
+              <span>VueJs</span>
+            </li>
+            <li>
+              <span class="fab fa-react"></span>
+              <span>ReactJs</span>
+            </li>
+            <li>
+              <span class="fab fa-sass"></span>
+              <span>Sass</span>
+            </li>
+          </ul>
+        </b-col>
+
+        <b-col>
+          <ul>
+            <li>
+              <span class="fab fa-python"></span>
+              <span>python</span>
+            </li>
+
+            <li>
+              <span class="fab fa-docker"></span>
+              <span>docker</span>
+            </li>
+            <li>
+              <span class="fab fa-python"></span>
+              <span>Django</span>
+            </li>
+            <li>
+              <span class="fab fa-wordpress"></span>
+              <span>Wordpress</span>
+            </li>
+          </ul>
+        </b-col>
       </b-col>
     </b-row>
- </b-container>
+  </b-container>
 </template>
 
 <script>
-import Carousel from './Carousel'
-
 export default {
-    name:'MainCon',
-    components:{
-      Carousel
-    }
-}
+  name: "MainCon",
+};
 </script>
 
-<style lang='scss' scoped> 
+<style lang="scss" scoped>
 @import "../styles/global.scss";
-#Content{
-    min-height: 100%;
-    padding-left: 0%;
-    
+#Content {
+  min-height: 100%;
+  padding-left: 0%;
 }
-#shadowHeader{
+#shadowHeader {
   @include shadow_title;
-
-}
-#left{
-  margin-left:10vw;
 }
 
 </style>
