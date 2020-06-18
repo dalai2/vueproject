@@ -6,10 +6,13 @@
       </b-col>
     </b-row>
     <b-row>
-      <b-col id="left">
+      <b-col lg="12"  id="left">
         <h1>{{ $t("stack.title") }}</h1>
         <p>{{ $t("stack.content") }}</p>
-        <b-col>
+              </b-col>
+    </b-row>
+    <b-row>
+        <b-col  >
           <ul>
             <li>
               <span class="fab fa-node-js"></span>
@@ -30,8 +33,7 @@
             </li>
           </ul>
         </b-col>
-
-        <b-col>
+        <b-col >
           <ul>
             <li>
               <span class="fab fa-python"></span>
@@ -52,8 +54,7 @@
             </li>
           </ul>
         </b-col>
-      </b-col>
-    </b-row>
+</b-row>
   </b-container>
 </template>
 
@@ -72,5 +73,7 @@ export default {
 #shadowHeader {
   @include shadow_title;
 }
-
+#left p{
+  padding: 20px;
+}
 </style>
