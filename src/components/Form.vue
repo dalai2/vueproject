@@ -1,11 +1,21 @@
 <template>
   <b-container d-flex justify-content-center>
     <b-form  @submit="onSubmit" @reset="onReset" v-if="show">
-      <b-form-group
+
+
+      <b-form-group id="input-group-1" :label="$t('contact.name')" label-for="input-1">
+        <b-form-input
+          id="input-1"
+          v-model="form.name"
+          required
+          :placeholder="$t('contact.name')"
+        ></b-form-input>
+      </b-form-group>
+            <b-form-group
         class="form-group"  
-        id="input-group-1"
+        id="input-group-2"
         :label=" $t('contact.email')  "
-        label-for="input-1"
+        label-for="input-2"
         required
       >
         <b-form-input
@@ -14,15 +24,6 @@
           type="email"
           required
           :placeholder=" $t('contact.email')"
-        ></b-form-input>
-      </b-form-group>
-
-      <b-form-group id="input-group-2" :label="$t('contact.name')" label-for="input-2">
-        <b-form-input
-          id="input-2"
-          v-model="form.name"
-          required
-          :placeholder="$t('contact.name')"
         ></b-form-input>
       </b-form-group>
       <b-form-group :label="$t('contact.message')" >

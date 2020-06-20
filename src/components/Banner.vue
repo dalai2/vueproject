@@ -43,9 +43,11 @@ export default {
 h3, p  {
     color: whitesmoke;
     z-index: 1;
+    letter-spacing: 3px;
+    text-transform:uppercase ;
 }
 .bg{
-  background-image:url("/ocean.jpg") ;
+  background-image:url("/abstract.jpg") ;
   height: inherit;
   width: auto;
   z-index: -1;
@@ -55,7 +57,7 @@ h3, p  {
 }
 
  .header {
-background: linear-gradient(40deg,rgba(24,41,57, .7) 73%, transparent 73%); 
+background: linear-gradient(45deg,rgba(24,41,57, .7) 73%, transparent 73%); 
      background-position: top center;
        background-size: cover;
        position: relative;
@@ -100,7 +102,6 @@ z-index: 1;
   cursor: pointer;
   
   text-transform: uppercase;
-  font-family: monospace;
   letter-spacing: -1px;
   
   

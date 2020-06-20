@@ -14,11 +14,12 @@
     <b-row>
         <b-col  >
           <ul>
+            <b-badge>
             <li>
               <span class="fab fa-node-js"></span>
               <span>JavaScript</span>
             </li>
-
+  </b-badge>
             <li>
               <span class="fab fa-vuejs"></span>
               <span>VueJs</span>

@@ -22,14 +22,15 @@ export default {
 }
 #nav {
   padding: 10px;
-  background-color: #080808;
+  background-color: #ece8e1;
   position: sticky;
+
   a {
     font-weight: bold;
     color: #2c3e50;
 
     &.router-link-exact-active {
-      color: #ece8e1;
+      color: #182939;
     }
   }
 }

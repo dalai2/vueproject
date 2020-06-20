@@ -53,4 +53,10 @@ display: flex;
 
   }
 }
+span {
+  color:#ece8e1;
+}
+a{
+  color: #ece8e1;
+}
 </style>

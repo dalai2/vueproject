@@ -6,14 +6,14 @@
   <h1>Recent Work</h1>
   </b-col></b-row>
   </b-container>
-  <b-container fluid>
+  <b-container class="blue-back" fluid>
+  <b-container class="blue-back">
   <b-row>
     <b-col class="bg1" lg='6'  fluid>
   <b-card class="su"
     
     img-src="/Untitled.png"
     img-alt="Card Image"
-    text-variant="light"
     title="Image Overlay"
     sub-title="Subtitle"
   >
@@ -43,9 +43,8 @@
         <b-col class="bg1" lg='6'  fluid>
   <b-card class="su"
     
-    img-src="/Untitled.png"
+    img-src="/vueportfolio.png"
     img-alt="Card Image"
-    text-variant="light"
     title="Image Overlay"
     sub-title="Subtitle"
   >
@@ -71,9 +70,70 @@
     </b-card-text>
   </b-card>
     </b-col>
-
+    <b-col class="bg1" lg='6'  fluid>
+  <b-card class="su"
+    
+    img-src="/misticos.png"
+    img-alt="Card Image"
+    title="Image Overlay"
+    sub-title="Subtitle"
+  >
+    <b-card-text >
+      Some quick example text to build on the card and make up the bulk of the card's content.
+      <br>
+      <div class="bord">
+    <a href="https://github.com/dalai2" target="_blank">     <button class="btn btn--animation-from-right">
+  <span class="btn__text-static">To github <i class="fab fa-github"></i> </span>
+  <div class="btn__text-dynamic">
+    <span class="btn__text-dynamic-inner">To github <i style="padding-left:5px;" class="fab fa-github"></i> </span>
+    </div>
+    </button>
+    </a>
+  </div>
+        <div class="bord">
+         <button class="btn btn--animation-from-right">
+  <span class="btn__text-static">Watch Live</span>
+  <div class="btn__text-dynamic">
+    <span class="btn__text-dynamic-inner">Watch Live</span>
+    </div>
+    </button>
+  </div>
+    </b-card-text>
+  </b-card>
+    </b-col>
+        <b-col class="bg1" lg='6'  fluid>
+  <b-card class="su"
+    
+    img-src="/evan.png"
+    img-alt="Card Image"
+    title="Image Overlay"
+    sub-title="Subtitle"
+  >
+    <b-card-text >
+      Some quick example text to build on the card and make up the bulk of the card's content.
+      <br>
+      <div class="bord">
+         <button class="btn btn--animation-from-right">
+  <span class="btn__text-static">To github<i class="fab fa-github"></i> </span>
+  <div class="btn__text-dynamic">
+    <span class="btn__text-dynamic-inner">To github<i class="fab fa-github"></i></span>
+    </div>
+    </button>
+  </div>
+        <div class="bord">
+         <button class="btn btn--animation-from-right">
+  <span class="btn__text-static">{{  $t('portfolio')  }}</span>
+  <div class="btn__text-dynamic">
+    <span class="btn__text-dynamic-inner">{{  $t('portfolio')  }}</span>
+    </div>
+    </button>
+  </div>   
+    </b-card-text>
+  </b-card>
+    </b-col>
   </b-row>
 
+  </b-container>
   </b-container>
   </b-container>
 </template>
@@ -97,43 +157,37 @@ hr{
 .bg1{
   
   padding:12.5px ;
-  background-color: $blueColor;
+  background-color: $lightColor;
 
 }
 .su{
-  background-color: $blueColor;
-
+  background-color: $lightColor;
+  color: $blueColor;
   border-bottom: 2.5px solid $redColor ;
 }
-.bg{
-
-  padding:12.5px ;
-  background-color: $blueColor;
-  &:hover{
-    background-color: $redColor;
-    z-index: 3;
-  }
+.blue-back{
+  background-color: $lightColor;
 }
 .wrapper{
     padding:100px 30px;
 }
 #Content {
 background: rgb(15,25,35);
-background: linear-gradient(355deg, $blueColor 55%, $lightColor 55%);
-  min-height: 60vh;
+background: linear-gradient(355deg, $lightColor 35%, $blueColor 35%);
+  min-height: 45vh;
 }
 .info{
     background:$lightColor;
     color:$blueColor;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-h2 {
-    color:blanchedalmond;
+h1 {
+    color:$lightColor;
     text-align: center;
 }
 
  .bord{
-    border: 1px solid $lightColor;
+    border: 1px solid $redColor;
     padding:5px;
     margin: 0 10px 0 0;
     display: inline-block;
@@ -150,7 +204,6 @@ h2 {
   cursor: pointer;
   
   text-transform: uppercase;
-  font-family: monospace;
   letter-spacing: -1px;
   
   
