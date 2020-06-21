@@ -3,6 +3,7 @@
   "portfolio": "Go to my Portfolio",
 
 "stack":{
+  "title0":"Development",
   "title":"Tech Stack",
   "content":"This are some of the languages or frameworks i'm comfortable working with."
 },
@@ -17,5 +18,9 @@
   "name":"Enter your name",
   "message":"Enter your message",
   "send":"send"
+},
+"portfo":{
+  "title":"Recent Work",
+  "buton":"Watch live"
 }
 }

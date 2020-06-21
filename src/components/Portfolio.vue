@@ -3,7 +3,7 @@
   <b-container fluid  id="Content">
 <b-row><b-col >
     <hr>
-  <h1>Recent Work</h1>
+  <h1>{{ $t("portfo.title") }}</h1>
   </b-col></b-row>
   </b-container>
   <b-container class="blue-back" fluid>
@@ -22,18 +22,18 @@
       <br>
       <div class="bord">
     <a href="https://github.com/dalai2" target="_blank">     <button class="btn btn--animation-from-right">
-  <span class="btn__text-static">To github <i class="fab fa-github"></i> </span>
+  <span class="btn__text-static">github <i class="fab fa-github"></i> </span>
   <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">To github <i style="padding-left:5px;" class="fab fa-github"></i> </span>
+    <span class="btn__text-dynamic-inner">github <i style="padding-left:5px;" class="fab fa-github"></i> </span>
     </div>
     </button>
     </a>
   </div>
         <div class="bord">
          <button class="btn btn--animation-from-right">
-  <span class="btn__text-static">Watch Live</span>
+  <span class="btn__text-static"> {{ $t("portfo.buton") }} </span>
   <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">Watch Live</span>
+    <span class="btn__text-dynamic-inner"> {{ $t("portfo.buton") }} </span>
     </div>
     </button>
   </div>
@@ -61,9 +61,9 @@
   </div>
         <div class="bord">
          <button class="btn btn--animation-from-right">
-  <span class="btn__text-static">{{  $t('portfolio')  }}</span>
+  <span class="btn__text-static"> {{ $t("portfo.buton") }} </span>
   <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">{{  $t('portfolio')  }}</span>
+    <span class="btn__text-dynamic-inner"> {{ $t("portfo.buton") }} </span>
     </div>
     </button>
   </div>   
@@ -81,20 +81,12 @@
     <b-card-text >
       Some quick example text to build on the card and make up the bulk of the card's content.
       <br>
-      <div class="bord">
-    <a href="https://github.com/dalai2" target="_blank">     <button class="btn btn--animation-from-right">
-  <span class="btn__text-static">To github <i class="fab fa-github"></i> </span>
-  <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">To github <i style="padding-left:5px;" class="fab fa-github"></i> </span>
-    </div>
-    </button>
-    </a>
-  </div>
+
         <div class="bord">
          <button class="btn btn--animation-from-right">
-  <span class="btn__text-static">Watch Live</span>
+  <span class="btn__text-static"> {{ $t("portfo.buton") }} </span>
   <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">Watch Live</span>
+    <span class="btn__text-dynamic-inner"> {{ $t("portfo.buton") }} </span>
     </div>
     </button>
   </div>
@@ -112,19 +104,12 @@
     <b-card-text >
       Some quick example text to build on the card and make up the bulk of the card's content.
       <br>
-      <div class="bord">
-         <button class="btn btn--animation-from-right">
-  <span class="btn__text-static">To github<i class="fab fa-github"></i> </span>
-  <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">To github<i class="fab fa-github"></i></span>
-    </div>
-    </button>
-  </div>
+
         <div class="bord">
          <button class="btn btn--animation-from-right">
-  <span class="btn__text-static">{{  $t('portfolio')  }}</span>
+  <span class="btn__text-static"> {{ $t("portfo.buton") }} </span>
   <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">{{  $t('portfolio')  }}</span>
+    <span class="btn__text-dynamic-inner"> {{ $t("portfo.buton") }} </span>
     </div>
     </button>
   </div>   

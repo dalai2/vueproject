@@ -3,7 +3,8 @@
     "portfolio": "Ve a mi Portafolio",
 
 "stack":{
-  "title":"Tecnologia",
+  "title0":"Tecnologías de",
+  "title":"Desarrollo",
   "content":"Estos son algunos de los lenguajes o tecnologias con las cuales me siento comodo trabajando."
   },    
 
@@ -17,6 +18,10 @@
     "name":"Escribe tu nombre",
     "message":"Escribe tu mensaje",
     "send":"enviar"
+  },
+  "portfo":{
+    "title":"Trabajo Reciente",
+    "buton":"En línea"
   }
 }
   

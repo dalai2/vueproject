@@ -20,6 +20,7 @@ export default {
 
 <style lang='scss' scoped>
 @import "../styles/global.scss";
+
 #shadowHeader{
     @include shadow_title;
 }
@@ -27,6 +28,7 @@ export default {
     margin-left: 25px;
     padding-left:0px ;
     border-left: 1px solid $blueColor;
+    margin-top: 15vh;
 }
 p {
    font-family: Arial, Georgia, sans-serif;
