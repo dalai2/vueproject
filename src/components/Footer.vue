@@ -2,9 +2,9 @@
   <b-container fluid class="cont" >
     <b-row>
       <b-col>
-            <span>Based in Mexico</span>
+            <span>{{ $t('foo.based') }}</span>
             <br>
-<span>Conctact Me at: <br> aguirredalai6@gmail.com</span>
+<span >{{ $t('foo.contact') }}<br> aguirredalai6@gmail.com</span>
 <br>
       </b-col>
     </b-row>

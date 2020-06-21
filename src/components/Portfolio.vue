@@ -14,11 +14,11 @@
     
     img-src="/Untitled.png"
     img-alt="Card Image"
-    title="Image Overlay"
-    sub-title="Subtitle"
+    :title="$t('proyecto_restaurant.title')"
+    :sub-title="$t('proyecto_restaurant.subtitle')"
   >
     <b-card-text >
-      Some quick example text to build on the card and make up the bulk of the card's content.
+     {{ $t('proyecto_restaurant.content') }} 
       <br>
       <div class="bord">
     <a href="https://github.com/dalai2" target="_blank">     <button class="btn btn--animation-from-right">
@@ -45,28 +45,20 @@
     
     img-src="/vueportfolio.png"
     img-alt="Card Image"
-    title="Image Overlay"
-    sub-title="Subtitle"
+    :title="$t('proyecto_portfolio.title')"
+    :sub-title="$t('proyecto_portfolio.subtitle')"
   >
     <b-card-text >
-      Some quick example text to build on the card and make up the bulk of the card's content.
+     {{ $t('proyecto_portfolio.content') }} 
       <br>
       <div class="bord">
          <button class="btn btn--animation-from-right">
-  <span class="btn__text-static">To github<i class="fab fa-github"></i> </span>
+  <span class="btn__text-static">github<i class="fab fa-github"></i> </span>
   <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">To github<i class="fab fa-github"></i></span>
+    <span class="btn__text-dynamic-inner">github<i class="fab fa-github"></i></span>
     </div>
     </button>
-  </div>
-        <div class="bord">
-         <button class="btn btn--animation-from-right">
-  <span class="btn__text-static"> {{ $t("portfo.buton") }} </span>
-  <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner"> {{ $t("portfo.buton") }} </span>
-    </div>
-    </button>
-  </div>   
+  </div>  
     </b-card-text>
   </b-card>
     </b-col>
@@ -75,11 +67,11 @@
     
     img-src="/misticos.png"
     img-alt="Card Image"
-    title="Image Overlay"
-    sub-title="Subtitle"
+    :title="$t('proyecto_misticos.title')"
+    :sub-title="$t('proyecto_misticos.subtitle')"
   >
     <b-card-text >
-      Some quick example text to build on the card and make up the bulk of the card's content.
+     {{ $t('proyecto_misticos.content') }} 
       <br>
 
         <div class="bord">
@@ -98,11 +90,11 @@
     
     img-src="/evan.png"
     img-alt="Card Image"
-    title="Image Overlay"
-    sub-title="Subtitle"
+    :title="$t('proyecto_evan.title')"
+    :sub-title="$t('proyecto_evan.subtitle')"
   >
     <b-card-text >
-      Some quick example text to build on the card and make up the bulk of the card's content.
+     {{ $t('proyecto_evan.content') }} 
       <br>
 
         <div class="bord">

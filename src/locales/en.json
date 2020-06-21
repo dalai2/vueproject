@@ -10,7 +10,12 @@
 
 "about":{
   "title":"About Me",
-  "content": "I'm a web developer with knowledge in front end with frameworks such as Reactjs and Vuejs. On the back end side i enjoy using Django. Got experience in the data analisis field by assisting in a data analisis course from bedu, where I completed the Fullstack/python course. On the data side I teached students a great variety of tools in order to help them become a data analyst. This tools ranged from the basics of git, to queryng data bases such as mySQL and MariaDB to noSQL mongo data base. Also used Rstudio to teach data sets cleaning and plotting with different packages, covered the basics of python such as data types and operations to jupyter notebooks, with pandas and matplotlib"
+  "p1": "Soy Dalai Aguirre, tengo 25 años y me especializo en desarrollo web.",
+  "p2": "Estudié el bootcamp de Fullstack/Python en BEDU en el que aprendí el manejo de frameworks para desarrollo web tales como ReactJ, Django y sus respectivos lenguajes de programación: JavaScript y Python.",
+  "p3": "He trabajado como asistente de profesor del curso“Análisis de datos” en BEDU, en el que colaboré en la preparación de material, clases y trabajos prácticos de la asignatura; me encargué de auxiliar a los estudiantes con diversos problemas técnicos de ejecución, tales como: añadir variables de entorno en Windows, el manejo de la terminal junto con git y github. Conexiones a bases de datos de MySql y Mongodb.",
+  "p4": "Durante el curso apoyé en la enseñanza del uso del lenguaje estadístico R, junto con su IDE Rstudio para la transformación y representación de datos, cargándolos en diferentes formatos, como JSON o CSV, para finalizar con la manipulación de datos con Python  y sus diversos paquetes enfocados al análisis de datos con el uso de JupyterNotebooks.",
+  "p5": "Como desarrollador web también he realizado trabajos independientes para pequeñas empresas como Evan ( Ecommerce) Místicos y Terrenales (Blog de política).",
+  "p6": "Actualmente me encuentro en búsqueda de nuevas oportunidades que me permitan generar soluciones, poniendo en práctica mis conocimientos adquiridos en un ambiente profesional de desarrollo."
 },
 "contact":{
   "title":"Contact Me",
@@ -22,5 +27,29 @@
 "portfo":{
   "title":"Recent Work",
   "buton":"Watch live"
+},
+"proyecto_evan":{
+  "title":"Evan",
+  "subtitle":"Woocommerce online shop",
+  "content":"This site was created with WP, using woocommerce, stripe as a payment gateway, elementor for easy content editing for the client."
+},
+"proyecto_misticos":{
+  "title":"Misticos y Terrenales",
+  "subtitle":"Politics blog",
+  "content":"This site was created with WP, Is a blog styled as a news website, under the hood there is some wp security fixes to protect from brute force login attempts."
+},
+"proyecto_restaurant":{
+  "title":"Responsive Restaurant",
+  "subtitle":"demo",
+  "content":"This site was build from scratch with just html, css and bootstrap, the task was to replicate the design available in the github repo."
+},
+"proyecto_portfolio":{
+  "title":"My Portfolio",
+  "subtitle":"made with Vue-cli",
+  "content":"This portfolio was made with vue-cli, i18n for translation, vue-router for dinamic URL's and bootstrap, Eslint and Babel"
+},
+"foo":{
+  "based":"Based in Mexico",
+  "contact":"Contact Me At: "
 }
 }
