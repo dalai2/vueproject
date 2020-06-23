@@ -1,5 +1,5 @@
-<template>
-<b-container fluid>
+<template >
+<b-container id="element" fluid>
   <b-container fluid  id="Content">
 <b-row><b-col >
     <hr>
@@ -9,7 +9,7 @@
   <b-container class="blue-back" fluid>
   <b-container class="blue-back">
   <b-row>
-    <b-col class="bg1" lg='6'  fluid>
+    <b-col  class="bg1" lg='6'  fluid>
   <b-card class="su"
     
     img-src="/Untitled.png"
@@ -21,7 +21,7 @@
      {{ $t('proyecto_restaurant.content') }} 
       <br>
       <div class="bord">
-    <a href="https://github.com/dalai2" target="_blank">     <button class="btn btn--animation-from-right">
+    <a href="https://github.com/dalai2/restaurant" target="_blank" rel="noopener noreferrer">     <button class="btn btn--animation-from-right">
   <span class="btn__text-static">github <i class="fab fa-github"></i> </span>
   <div class="btn__text-dynamic">
     <span class="btn__text-dynamic-inner">github <i style="padding-left:5px;" class="fab fa-github"></i> </span>
@@ -30,12 +30,13 @@
     </a>
   </div>
         <div class="bord">
-         <button class="btn btn--animation-from-right">
+    <a href="https://blissful-wilson-c6fc92.netlify.app/" target="_blank" rel="noopener noreferrer">     <button class="btn btn--animation-from-right">
   <span class="btn__text-static"> {{ $t("portfo.buton") }} </span>
   <div class="btn__text-dynamic">
     <span class="btn__text-dynamic-inner"> {{ $t("portfo.buton") }} </span>
     </div>
     </button>
+    </a>
   </div>
     </b-card-text>
   </b-card>
@@ -52,12 +53,13 @@
      {{ $t('proyecto_portfolio.content') }} 
       <br>
       <div class="bord">
-         <button class="btn btn--animation-from-right">
+    <a href="https://github.com/dalai2/vueproject" target="_blank" rel="noopener noreferrer">     <button class="btn btn--animation-from-right">
   <span class="btn__text-static">github<i class="fab fa-github"></i> </span>
   <div class="btn__text-dynamic">
     <span class="btn__text-dynamic-inner">github<i class="fab fa-github"></i></span>
     </div>
     </button>
+    </a>
   </div>  
     </b-card-text>
   </b-card>
@@ -70,17 +72,18 @@
     :title="$t('proyecto_misticos.title')"
     :sub-title="$t('proyecto_misticos.subtitle')"
   >
-    <b-card-text >
+    <b-card-text  >
      {{ $t('proyecto_misticos.content') }} 
       <br>
 
         <div class="bord">
-         <button class="btn btn--animation-from-right">
+      <a href="https://misticosyterrenales.com/" target="_blank" rel="noopener noreferrer">   <button class="btn btn--animation-from-right">
   <span class="btn__text-static"> {{ $t("portfo.buton") }} </span>
   <div class="btn__text-dynamic">
     <span class="btn__text-dynamic-inner"> {{ $t("portfo.buton") }} </span>
     </div>
     </button>
+    </a>
   </div>
     </b-card-text>
   </b-card>
@@ -98,12 +101,13 @@
       <br>
 
         <div class="bord">
-         <button class="btn btn--animation-from-right">
+       <a href="https://evan.com.mx/" target="_blank" rel="noopener noreferrer">  <button class="btn btn--animation-from-right">
   <span class="btn__text-static"> {{ $t("portfo.buton") }} </span>
   <div class="btn__text-dynamic">
     <span class="btn__text-dynamic-inner"> {{ $t("portfo.buton") }} </span>
     </div>
     </button>
+    </a>
   </div>   
     </b-card-text>
   </b-card>

@@ -10,9 +10,9 @@
     </b-row>
     <b-row>
       <b-col>
-<a class="lin" href=""><i class="fab fa-github"></i></a>
-<a class='mid' href=""><i class="fab fa-linkedin-in "></i></a>
-<a class="lin" href=""><i class="far fa-envelope-open"></i></a>
+<a class="lin" href="https://github.com/dalai2" target="_blank"><i class="fab fa-github"></i></a>
+<a class='mid' href="https://www.linkedin.com/in/dalai-aguirre-jimenez/" target="_blank"><i class="fab fa-linkedin-in "></i></a>
+<a class="lin" href="mailto:aguirredalai6@gmail.com" target="_blank" ><i class="far fa-envelope-open"></i></a>
       </b-col>
     </b-row>
   </b-container>

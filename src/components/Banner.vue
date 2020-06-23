@@ -1,13 +1,17 @@
 <template>
    <div class="bg">
   <b-container fluid class="header">
- 
       <b-row  class="marg">
           <b-col col lg="12" sm="12" id="me">
               <h3> {{  $t('banner')  }}</h3>
       <h1 id="title">Dalai Aguirre</h1>
       <div class="bord">
-         <button class="btn btn--animation-from-right">
+ <button class="btn btn--animation-from-right" v-scroll-to="{
+     el: '#element',
+     duration: 1000,
+     easing: 'ease-out',
+     offset: -100,
+ }">
   <span class="btn__text-static">{{  $t('portfolio')  }}</span>
   <div class="btn__text-dynamic">
     <span class="btn__text-dynamic-inner">{{  $t('portfolio')  }}</span>
@@ -21,12 +25,11 @@
   </b-container>
   </div>
 </template>
-
 <script>
-
 export default {
     name: "Banner",
 }
+
 </script>
 
 <style lang='scss' scoped>
