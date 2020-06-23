@@ -1,7 +1,12 @@
 <template>
   <div id="app">
     <b-navbar toggleable="lg" sticky id="nav">
-      <router-link :to="`/${$i18n.locale}/`">Home</router-link> |
+      <router-link  :to="`/${$i18n.locale}/`" v-scroll-to="{
+     el: '#app',
+     duration: 1000,
+     easing: 'ease-out',
+     offset: -100,
+ }">{{$t('home')}}</router-link> |
       <LangSwitch/>
     </b-navbar>
     <router-view/>
@@ -10,7 +15,7 @@
 <script>
 import LangSwitch from './components/LangSwitch'
 export default {
-  components: { LangSwitch }
+  components: { LangSwitch },
 }
 </script>
 <style lang="scss">

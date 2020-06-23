@@ -1,7 +1,8 @@
 {
+  "home":"Home",
   "banner": "Fullstack Developer",
   "portfolio": "Go to my Portfolio",
-
+  "404":"404 Page not found",
 "stack":{
   "title0":"Development",
   "title":"Tech Stack",
@@ -9,13 +10,13 @@
 },
 
 "about":{
-  "title":"About Me",
-  "p1": "Soy Dalai Aguirre, tengo 25 años y me especializo en desarrollo web.",
-  "p2": "Estudié el bootcamp de Fullstack/Python en BEDU en el que aprendí el manejo de frameworks para desarrollo web tales como ReactJ, Django y sus respectivos lenguajes de programación: JavaScript y Python.",
-  "p3": "He trabajado como asistente de profesor del curso“Análisis de datos” en BEDU, en el que colaboré en la preparación de material, clases y trabajos prácticos de la asignatura; me encargué de auxiliar a los estudiantes con diversos problemas técnicos de ejecución, tales como: añadir variables de entorno en Windows, el manejo de la terminal junto con git y github. Conexiones a bases de datos de MySql y Mongodb.",
-  "p4": "Durante el curso apoyé en la enseñanza del uso del lenguaje estadístico R, junto con su IDE Rstudio para la transformación y representación de datos, cargándolos en diferentes formatos, como JSON o CSV, para finalizar con la manipulación de datos con Python  y sus diversos paquetes enfocados al análisis de datos con el uso de JupyterNotebooks.",
-  "p5": "Como desarrollador web también he realizado trabajos independientes para pequeñas empresas como Evan ( Ecommerce) Místicos y Terrenales (Blog de política).",
-  "p6": "Actualmente me encuentro en búsqueda de nuevas oportunidades que me permitan generar soluciones, poniendo en práctica mis conocimientos adquiridos en un ambiente profesional de desarrollo."
+  "title":"About Me", 
+  "p1": "My name is Dalai Aguirre, I am a 25 year old web developer.",
+  "p2": "I studied the Fullstack/Python bootcamp at BEDU, where I learned web development with frameworks such as ReactJS and Django and their respective programming languages: JavaScript and Python.",
+  "p3": "I worked as a teacher assistant in a ‘Data analysis’ course, where I collaborated preparing the classes, material and practical work; I focused on helping students with diverse technical problems, such as; adding environment variables in Windows, command prompt use including git and github, and connecting to MySql and Mongodb databases.",
+  "p4": "During the course I assisted in teaching the use of R, and its IDE Rstudio transforming and plotting of data, uploading the data in different formats, like JSON and CSV, finalizing the with data transformation with Python and its diverse packages focused on data analysis, using JupyterNotebooks.",
+  "p5": "As a web developer I  have made freelance works for small business like Evan (Ecommerce) and Misticos y Terrenales, (Politics blog).",
+  "p6": "Currently I’m searching for new opportunities that allow me to generate solutions, and put into practice  my acquired kmowledge in a professional developing environment."
 },
 "contact":{
   "title":"Contact Me",
