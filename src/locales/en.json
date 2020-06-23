@@ -1,14 +1,56 @@
 {
+  "home":"Home",
   "banner": "Fullstack Developer",
   "portfolio": "Go to my Portfolio",
-
+  "404":"404 Page not found",
 "stack":{
+  "title0":"Development",
   "title":"Tech Stack",
   "content":"This are some of the languages or frameworks i'm comfortable working with."
 },
 
 "about":{
-  "title":"About Me",
-  "content": "I'm a web developer with knowledge in front end with frameworks such as Reactjs and Vuejs. On the back end side i enjoy using Django. Got experience in the data analisis field by assisting in a data analisis course from bedu, where I completed the Fullstack/python course. On the data side I teached students a great variety of tools in order to help them become a data analyst. This tools ranged from the basics of git, to queryng data bases such as mySQL and MariaDB to noSQL mongo data base. Also used Rstudio to teach data sets cleaning and plotting with different packages, covered the basics of python such as data types and operations to jupyter notebooks, with pandas and matplotlib"
+  "title":"About Me", 
+  "p1": "My name is Dalai Aguirre, I am a 25 year old web developer.",
+  "p2": "I studied the Fullstack/Python bootcamp at BEDU, where I learned web development with frameworks such as ReactJS and Django and their respective programming languages: JavaScript and Python.",
+  "p3": "I worked as a teacher assistant in a ‘Data analysis’ course, where I collaborated preparing the classes, material and practical work; I focused on helping students with diverse technical problems, such as; adding environment variables in Windows, command prompt use including git and github, and connecting to MySql and Mongodb databases.",
+  "p4": "During the course I assisted in teaching the use of R, and its IDE Rstudio transforming and plotting of data, uploading the data in different formats, like JSON and CSV, finalizing the with data transformation with Python and its diverse packages focused on data analysis, using JupyterNotebooks.",
+  "p5": "As a web developer I  have made freelance works for small business like Evan (Ecommerce) and Misticos y Terrenales, (Politics blog).",
+  "p6": "Currently I’m searching for new opportunities that allow me to generate solutions, and put into practice  my acquired kmowledge in a professional developing environment."
+},
+"contact":{
+  "title":"Contact Me",
+  "email":"Email address",
+  "name":"Enter your name",
+  "message":"Enter your message",
+  "send":"send"
+},
+"portfo":{
+  "title":"Recent Work",
+  "buton":"Watch live"
+},
+"proyecto_evan":{
+  "title":"Evan",
+  "subtitle":"Woocommerce online shop",
+  "content":"This site was created with WP, using woocommerce, stripe as a payment gateway, elementor for easy content editing for the client."
+},
+"proyecto_misticos":{
+  "title":"Misticos y Terrenales",
+  "subtitle":"Politics blog",
+  "content":"This site was created with WP, Is a blog styled as a news website, under the hood there is some wp security fixes to protect from brute force login attempts."
+},
+"proyecto_restaurant":{
+  "title":"Responsive Restaurant",
+  "subtitle":"demo",
+  "content":"This site was build from scratch with just html, css and bootstrap, the task was to replicate the design available in the github repo."
+},
+"proyecto_portfolio":{
+  "title":"My Portfolio",
+  "subtitle":"made with Vue-cli",
+  "content":"This portfolio was made with vue-cli, i18n for translation, vue-router for dinamic URL's and bootstrap, Eslint and Babel"
+},
+"foo":{
+  "based":"Based in Mexico",
+  "contact":"Contact Me At: "
 }
 }

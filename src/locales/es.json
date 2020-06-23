@@ -1,15 +1,58 @@
 {
+    "home":"Inicio",
     "banner": "Desarrollador Fullstack",
     "portfolio": "Ve a mi Portafolio",
+    "404":"404 Página no encontrada",
 
 "stack":{
-  "title":"Tecnologia",
+  "title0":"Tecnologías de",
+  "title":"Desarrollo",
   "content":"Estos son algunos de los lenguajes o tecnologias con las cuales me siento comodo trabajando."
   },    
 
   "about":{
-    "title":"Sobre mi",
-    "content": "Soy un desarrollador,si me das dinero o comida te dare algo, usualmente un sitio web, pero las morsas no estan descartadas"
+    "title":"Sobre mí",
+    "p1": "Soy Dalai Aguirre, tengo 25 años y me especializo en desarrollo web.",
+    "p2": "Estudié el bootcamp de Fullstack/Python en BEDU en el que aprendí el manejo de frameworks para desarrollo web tales como ReactJ, Django y sus respectivos lenguajes de programación: JavaScript y Python.",
+    "p3": "He trabajado como asistente de profesor del curso“Análisis de datos” en BEDU, en el que colaboré en la preparación de material, clases y trabajos prácticos de la asignatura; me encargué de auxiliar a los estudiantes con diversos problemas técnicos de ejecución, tales como: añadir variables de entorno en Windows, el manejo de la terminal junto con git y github. Conexiones a bases de datos de MySql y Mongodb.",
+    "p4": "Durante el curso apoyé en la enseñanza del uso del lenguaje estadístico R, junto con su IDE Rstudio para la transformación y representación de datos, cargándolos en diferentes formatos, como JSON o CSV, para finalizar con la manipulación de datos con Python  y sus diversos paquetes enfocados al análisis de datos con el uso de JupyterNotebooks.",
+    "p5": "Como desarrollador web también he realizado trabajos independientes para pequeñas empresas como Evan ( Ecommerce) Místicos y Terrenales (Blog de política).",
+    "p6": "Actualmente me encuentro en búsqueda de nuevas oportunidades que me permitan generar soluciones, poniendo en práctica mis conocimientos adquiridos en un ambiente profesional de desarrollo."
+  },
+  "contact":{
+    "title":"Contactame",
+    "email":"Direccion de correo",
+    "name":"Escribe tu nombre",
+    "message":"Escribe tu mensaje",
+    "send":"enviar"
+  },
+  "portfo":{
+    "title":"Trabajo Reciente",
+    "buton":"En línea"
+  },
+  "proyecto_evan":{
+    "title":"Evan",
+    "subtitle":"Tienda en línea con Woocommerce",
+    "content":"Este sitio fue creado con WP, usando woocommerce, stripe como método de pago y elementor para la facilidad de edición de contenido para el cliente."
+  },
+  "proyecto_misticos":{
+    "title":"Místicos y Terrenales",
+    "subtitle":"Blog de política",
+    "content":"Este sitio fue creado con WP, es un blog estilizado como un sitio de noticias, el sitio cuenta con seguridad para la protección de ataques de fuerza bruta. "
+  },
+  "proyecto_restaurant":{
+    "title":"Restaurante Responsivo",
+    "subtitle":"Demo",
+    "content":"Este sitio fue construido unicamente con html, css y bootstrap, la tarea fue reproducir el diseño, disponible en el repositorio de github."
+  },
+  "proyecto_portfolio":{
+    "title":"Mi portafolio",
+    "subtitle":"Hecho con Vue-cli",
+    "content":"Hecho con Vue-cli, i18n para las traducciones, vue-router para las urls dinámicas de las traducciones, Eslint y Babel."
+  },
+  "foo":{
+    "based":"Con sede en México",
+    "contact":"Escríbeme a: "
   }
 }
   

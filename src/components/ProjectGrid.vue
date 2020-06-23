@@ -1,7 +1,5 @@
 <template>
   <b-container fluid>
-    <Navi />
-
     <Banner />
     <b-row>
       <b-col lg="12">
@@ -31,7 +29,6 @@
 <script>
 import Banner from "./Banner";
 import Footer from "./Footer";
-import Navi from "./Navi";
 import MainCon from "./MainCon";
 import Portfolio from "./Portfolio";
 import Contact from "./Contact-templ";
@@ -41,7 +38,6 @@ export default {
   components: {
     Banner,
     Footer,
-    Navi,
     MainCon,
     Portfolio,
     Contact,

@@ -1,45 +1,47 @@
 <template>
   <b-container d-flex justify-content-center>
     <b-form  @submit="onSubmit" @reset="onReset" v-if="show">
-      <b-form-group
+
+
+      <b-form-group id="input-group-1" :label="$t('contact.name')" label-for="input-1">
+        <b-form-input
+          id="input-1"
+          v-model="form.name"
+          required
+          :placeholder="$t('contact.name')"
+        ></b-form-input>
+      </b-form-group>
+            <b-form-group
         class="form-group"  
-        id="input-group-1"
-        label="Email address:"
-        label-for="input-1"
+        id="input-group-2"
+        :label=" $t('contact.email')  "
+        label-for="input-2"
         required
-        description="We'll never share your email with anyone else."
       >
         <b-form-input
           id="input-1"
           v-model="form.email"
           type="email"
           required
-          placeholder="Enter email"
+          :placeholder=" $t('contact.email')"
         ></b-form-input>
       </b-form-group>
-
-      <b-form-group id="input-group-2" label="Your Name:" label-for="input-2">
-        <b-form-input
-          id="input-2"
-          v-model="form.name"
-          required
-          placeholder="Enter name"
-        ></b-form-input>
-      </b-form-group>
-      <b-form-group label='Enter your message' >
+      <b-form-group :label="$t('contact.message')" >
           <b-form-textarea
     id="textarea-no-resize"
-    placeholder="Fixed height textarea"
+    :placeholder="$t('contact.title')"
     rows="3"
     no-resize
   ></b-form-textarea>
       </b-form-group >
+      <div class="bord">
 <button class="btn btn--animation-from-right">
-  <span class="btn__text-static">Submit</span>
+  <span class="btn__text-static"> {{ $t('contact.send') }}</span>
   <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">Submit</span>
+    <span class="btn__text-dynamic-inner">{{ $t('contact.send') }}</span>
   </div>
 </button>
+</div>
     </b-form>
   </b-container>
 </template>
@@ -79,12 +81,18 @@
 .form-group{
   color:#fff;
 }
+ .bord{
+    border: 1px solid $lightColor;
+    padding:5px;
+    margin: 0 10px 0 0;
+    display: inline-block;
+    margin-top: 25px;
+}
 .btn {
   padding: 10px 30px;
   position: relative;
-  
-  color: $blueColor;
-  background-color: $redColor;
+  color: $lightColor;
+  background-color: $blueColor;
   position: relative;
   
   overflow: hidden;
@@ -112,7 +120,7 @@
   }
   
   .btn__text-dynamic {
-    background-color: $lightColor;
+    background-color: $redColor;
     color: $lightColor;
     overflow: hidden;
   }
