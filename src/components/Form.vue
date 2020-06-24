@@ -1,6 +1,6 @@
 <template>
   <b-container d-flex justify-content-center>
-    <b-form  @submit="onSubmit" @reset="onReset" v-if="show">
+    <b-form  @submit="onSubmit" @reset="onReset" v-if="show" action="POST" data-netlify="true">
 
 
       <b-form-group id="input-group-1" :label="$t('contact.name')" label-for="input-1">
@@ -34,6 +34,9 @@
     no-resize
   ></b-form-textarea>
       </b-form-group >
+      <div class="field">
+        <div data-netlify-recaptcha="true"></div>
+      </div>
       <div class="bord">
 <button class="btn btn--animation-from-right">
   <span class="btn__text-static"> {{ $t('contact.send') }}</span>
