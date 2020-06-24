@@ -1,6 +1,6 @@
 <template>
   <b-container d-flex justify-content-center>
-    <b-form  @submit="onSubmit" @reset="onReset" v-if="show" action="POST" data-netlify="true">
+    <b-form  @submit="onSubmit" @reset="onReset" v-if="show" method="POST" data-netlify="true">
 
 
       <b-form-group id="input-group-1" :label="$t('contact.name')" label-for="input-1">
