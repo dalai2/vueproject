@@ -12,7 +12,7 @@
     <b-col  class="bg1" lg='6'  fluid>
   <b-card class="su"
     
-    img-src="/Untitled.png"
+    img-src="/restaurant.png"
     img-alt="Card Image"
     :title="$t('proyecto_restaurant.title')"
     :sub-title="$t('proyecto_restaurant.subtitle')"
@@ -155,7 +155,7 @@ hr{
 #Content {
 background: rgb(15,25,35);
 background: linear-gradient(355deg, $lightColor 35%, $blueColor 35%);
-  min-height: 45vh;
+  min-height: 35vh;
 }
 .info{
     background:$lightColor;
