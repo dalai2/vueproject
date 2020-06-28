@@ -1,10 +1,12 @@
 <template>
   <b-container d-flex justify-content-center>
-    <b-form  @submit="onSubmit" @reset="onReset" v-if="show" method="POST" data-netlify="true">
+    <b-form  @submit="onSubmit" @reset="onReset" v-if="show" method="POST" data-netlify="true"
+    name='form-contact'>
 
 
       <b-form-group id="input-group-1" :label="$t('contact.name')" label-for="input-1">
         <b-form-input
+          name="name"
           id="input-1"
           v-model="form.name"
           required
@@ -19,6 +21,7 @@
         required
       >
         <b-form-input
+        name="email"
           id="input-1"
           v-model="form.email"
           type="email"
@@ -28,6 +31,7 @@
       </b-form-group>
       <b-form-group :label="$t('contact.message')" >
           <b-form-textarea
+          name="message"
     id="textarea-no-resize"
     :placeholder="$t('contact.title')"
     rows="3"
