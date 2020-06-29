@@ -1,14 +1,14 @@
 <template>
   <b-container class="cont">
-<form class="form-group" name="contact" netlify>
+<form class="form-group" name="contact" method="POST" netlify>
   <p>
-    <label>{{ $t('contact.name') }}<input class="inputs" type="text" name="name" /></label>
+    <label>{{ $t('contact.name') }}<input class="inp" type="text" name="name" /></label>
   </p>
   <p>
-    <label>{{ $t('contact.email') }}<input class="inputs" type="email" name="email" /></label>
+    <label>{{ $t('contact.email') }}<input class="inp" type="email" name="email" /></label>
   </p>
     <p>
-    <label>{{ $t('contact.message') }}<input class="inputs" type="text" name="message" /></label>
+    <label>{{ $t('contact.message') }}<textarea class="inp" type="text" name="message" /></label>
   </p>
   <p>
     <button class="btn" type="submit">{{ $t('contact.send') }}</button>
@@ -25,7 +25,7 @@
 <style lang="scss" scoped>
 @import "../styles/global.scss";
 
-.inputs{
+.inp{
   width: 70vw;
   padding: 10px;
   margin:0 auto;
