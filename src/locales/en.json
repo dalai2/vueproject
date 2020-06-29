@@ -13,8 +13,8 @@
   "title":"About Me", 
   "p1": "My name is Dalai Aguirre, I am a 25 year old web developer.",
   "p2": "I studied the Fullstack/Python bootcamp at BEDU, where I learned web development with frameworks such as ReactJS and Django and their respective programming languages: JavaScript and Python.",
-  "p3": "I worked as a teacher assistant in a ‘Data analysis’ course, where I collaborated preparing the classes, material and practical work; I focused on helping students with diverse technical problems, such as; adding environment variables in Windows, command prompt use including git and github, and connecting to MySql and Mongodb databases.",
-  "p4": "During the course I assisted in teaching the use of R, and its IDE Rstudio transforming and plotting of data, uploading the data in different formats, like JSON and CSV, finalizing the with data transformation with Python and its diverse packages focused on data analysis, using JupyterNotebooks.",
+  "p3": "I worked as a teacher assistant in a ‘Data analysis’ course, where I collaborated preparing the classes, material and practical work: I focused on helping students with diverse technical problems, such as; adding environment variables in Windows, command prompt use including git and github, and connecting to MySql and Mongodb databases.",
+  "p4": "During the course I assisted in teaching the use of R, and its IDE Rstudio transforming and plotting of data, uploading the data in different formats, like JSON and CSV, finishing with data transformation with Python and its diverse packages focused on data analysis, using JupyterNotebooks.",
   "p5": "As a web developer I  have made freelance works for small business like Evan (Ecommerce) and Misticos y Terrenales, (Politics blog).",
   "p6": "Currently I’m searching for new opportunities that allow me to generate solutions, and put into practice  my acquired kmowledge in a professional developing environment."
 },
@@ -42,7 +42,7 @@
 "proyecto_restaurant":{
   "title":"Responsive Restaurant",
   "subtitle":"demo",
-  "content":"This site was build from scratch with just html, css and bootstrap, the task was to replicate the design available in the github repo."
+  "content":"This site was build from scratch with html, css and bootstrap, the task was to replicate the design available in the github repo."
 },
 "proyecto_portfolio":{
   "title":"My Portfolio",
