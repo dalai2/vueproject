@@ -1,10 +1,10 @@
 <template>
   <b-container class="cont">
-<form name="contact-me" netlify netlify-honeypot="bot-field" class="form-group" >
+<form name="contact-me" class="form-group" method="POST" netlify-honeypot="bot-field" netlify>
   <p>{{ $t('contact.name') }}</p>
   <input class="inputs" :placeholder="$t('contact.name')" type="text" name="name" />
     <p>{{ $t('contact.email') }}</p>
-  <input class="inputs" :placeholder="$t('contact.email')" type="text" name="email" />
+  <input class="inputs" :placeholder="$t('contact.email')" type="email" name="email" />
     <p>{{ $t('contact.message') }}</p>
   <textarea class="inputs" :placeholder="$t('contact.message')" name="question"></textarea>
 
