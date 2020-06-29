@@ -8,7 +8,7 @@
     <label>{{ $t('contact.email') }}<input class="inp" type="email" name="email" /></label>
   </p>
     <p>
-    <label>{{ $t('contact.message') }}<textarea class="inp" type="text" name="message" /></label>
+    <label>{{ $t('contact.message') }}<input class="inp" type="text" name="message" /></label>
   </p>
   <p>
     <button class="btn" type="submit">{{ $t('contact.send') }}</button>
