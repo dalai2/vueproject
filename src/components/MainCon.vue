@@ -70,7 +70,7 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/global.scss";
 #Content {
-  min-height: 120vh;
+  min-height: 100%;
   padding-left: 0%;
 
 }

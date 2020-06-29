@@ -1,5 +1,5 @@
 <template >
-<b-container id="element" fluid>
+<b-container fluid>
   <b-container fluid  id="Content">
 <b-row><b-col >
     <hr>
@@ -9,6 +9,54 @@
   <b-container class="blue-back" fluid>
   <b-container class="blue-back">
   <b-row>
+        <b-col class="bg1" lg='6'  fluid>
+  <b-card class="su"
+    
+    img-src="/misticos.png"
+    img-alt="Card Image"
+    :title="$t('proyecto_misticos.title')"
+    :sub-title="$t('proyecto_misticos.subtitle')"
+  >
+    <b-card-text  >
+     {{ $t('proyecto_misticos.content') }} 
+      <br>
+
+        <div class="bord">
+      <a href="https://misticosyterrenales.com/" target="_blank" rel="noopener noreferrer">   <button class="btn btn--animation-from-right">
+  <span class="btn__text-static"> {{ $t("portfo.buton") }} </span>
+  <div class="btn__text-dynamic">
+    <span class="btn__text-dynamic-inner"> {{ $t("portfo.buton") }} </span>
+    </div>
+    </button>
+    </a>
+  </div>
+    </b-card-text>
+  </b-card>
+    </b-col>
+        <b-col class="bg1" lg='6'  fluid>
+  <b-card class="su"
+    
+    img-src="/evan.png"
+    img-alt="Card Image"
+    :title="$t('proyecto_evan.title')"
+    :sub-title="$t('proyecto_evan.subtitle')"
+  >
+    <b-card-text >
+     {{ $t('proyecto_evan.content') }} 
+      <br>
+
+        <div class="bord">
+       <a href="https://evan.com.mx/" target="_blank" rel="noopener noreferrer">  <button class="btn btn--animation-from-right">
+  <span class="btn__text-static"> {{ $t("portfo.buton") }} </span>
+  <div class="btn__text-dynamic">
+    <span class="btn__text-dynamic-inner"> {{ $t("portfo.buton") }} </span>
+    </div>
+    </button>
+    </a>
+  </div>   
+    </b-card-text>
+  </b-card>
+    </b-col>
     <b-col  class="bg1" lg='6'  fluid>
   <b-card class="su"
     
@@ -64,54 +112,7 @@
     </b-card-text>
   </b-card>
     </b-col>
-    <b-col class="bg1" lg='6'  fluid>
-  <b-card class="su"
-    
-    img-src="/misticos.png"
-    img-alt="Card Image"
-    :title="$t('proyecto_misticos.title')"
-    :sub-title="$t('proyecto_misticos.subtitle')"
-  >
-    <b-card-text  >
-     {{ $t('proyecto_misticos.content') }} 
-      <br>
 
-        <div class="bord">
-      <a href="https://misticosyterrenales.com/" target="_blank" rel="noopener noreferrer">   <button class="btn btn--animation-from-right">
-  <span class="btn__text-static"> {{ $t("portfo.buton") }} </span>
-  <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner"> {{ $t("portfo.buton") }} </span>
-    </div>
-    </button>
-    </a>
-  </div>
-    </b-card-text>
-  </b-card>
-    </b-col>
-        <b-col class="bg1" lg='6'  fluid>
-  <b-card class="su"
-    
-    img-src="/evan.png"
-    img-alt="Card Image"
-    :title="$t('proyecto_evan.title')"
-    :sub-title="$t('proyecto_evan.subtitle')"
-  >
-    <b-card-text >
-     {{ $t('proyecto_evan.content') }} 
-      <br>
-
-        <div class="bord">
-       <a href="https://evan.com.mx/" target="_blank" rel="noopener noreferrer">  <button class="btn btn--animation-from-right">
-  <span class="btn__text-static"> {{ $t("portfo.buton") }} </span>
-  <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner"> {{ $t("portfo.buton") }} </span>
-    </div>
-    </button>
-    </a>
-  </div>   
-    </b-card-text>
-  </b-card>
-    </b-col>
   </b-row>
 
   </b-container>

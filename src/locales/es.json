@@ -7,7 +7,7 @@
 "stack":{
   "title0":"Tecnologías de",
   "title":"Desarrollo",
-  "content":"Estos son algunos de los lenguajes o tecnologias con las cuales me siento comodo trabajando."
+  "content":"Estos son algunos de los lenguajes o tecnologias con las cuales me siento cómodo trabajando."
   },    
 
   "about":{
@@ -43,7 +43,7 @@
   "proyecto_restaurant":{
     "title":"Restaurante Responsivo",
     "subtitle":"Demo",
-    "content":"Este sitio fue construido unicamente con html, css y bootstrap, la tarea fue reproducir el diseño, disponible en el repositorio de github."
+    "content":"Este sitio fue construido con html, css y bootstrap, la tarea fue reproducir el diseño, disponible en el repositorio de github."
   },
   "proyecto_portfolio":{
     "title":"Mi portafolio",
@@ -51,7 +51,7 @@
     "content":"Hecho con Vue-cli, i18n para las traducciones, vue-router para las urls dinámicas de las traducciones, Eslint y Babel."
   },
   "foo":{
-    "based":"Con sede en México",
+    "based":"Residente en México",
     "contact":"Escríbeme a: "
   }
 }

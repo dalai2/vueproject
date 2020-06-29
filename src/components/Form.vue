@@ -1,25 +1,18 @@
 <template>
   <b-container class="cont">
-<form name="contact-me" netlify netlify-honeypot="bot-field" class="form-group" >
-  <p>{{ $t('contact.name') }}</p>
-  <input class="inputs" :placeholder="$t('contact.name')" type="text" name="name" />
-    <p>{{ $t('contact.email') }}</p>
-  <input class="inputs" :placeholder="$t('contact.email')" type="text" name="email" />
-    <p>{{ $t('contact.message') }}</p>
-  <textarea class="inputs" :placeholder="$t('contact.message')" name="question"></textarea>
-
-
-      <div class="field">
-        <div data-netlify-recaptcha="true"></div>
-      </div>
-      <div class="bord">
-<button class="btn btn--animation-from-right" type="submit">
-  <span class="btn__text-static"> {{ $t('contact.send') }}</span>
-  <div class="btn__text-dynamic">
-    <span class="btn__text-dynamic-inner">{{ $t('contact.send') }}</span>
-  </div>
-</button>
-</div>
+<form class="form-group" name="contact" netlify>
+  <p>
+    <label>{{ $t('contact.name') }}<input class="inputs" type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>{{ $t('contact.email') }}<input class="inputs" type="email" name="email" /></label>
+  </p>
+    <p>
+    <label>{{ $t('contact.message') }}<input class="inputs" type="text" name="message" /></label>
+  </p>
+  <p>
+    <button class="btn" type="submit">{{ $t('contact.send') }}</button>
+  </p>
 </form>
   </b-container>
 </template>
@@ -52,7 +45,7 @@
   padding: 10px 30px;
   position: relative;
   color: $lightColor;
-  background-color: $blueColor;
+  background-color: $redColor;
   position: relative;
   
   overflow: hidden;
