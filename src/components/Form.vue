@@ -1,17 +1,12 @@
 <template>
   <b-container class="cont">
-<form name="contact-me" class="form-group" method="POST" netlify-honeypot="bot-field" netlify>
+<form name="contact-me" class="form-group" method="POST" netlify>
   <p>{{ $t('contact.name') }}</p>
   <input class="inputs" :placeholder="$t('contact.name')" type="text" name="name" />
     <p>{{ $t('contact.email') }}</p>
   <input class="inputs" :placeholder="$t('contact.email')" type="email" name="email" />
     <p>{{ $t('contact.message') }}</p>
   <textarea class="inputs" :placeholder="$t('contact.message')" name="question"></textarea>
-
-
-      <div class="field">
-        <div data-netlify-recaptcha="true"></div>
-      </div>
       <div class="bord">
 <button class="btn btn--animation-from-right" type="submit">
   <span class="btn__text-static"> {{ $t('contact.send') }}</span>
