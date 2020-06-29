@@ -1,6 +1,7 @@
 <template>
   <b-container class="cont">
 <form class="form-group" name="contact" method="POST" netlify>
+  <input type="hidden" name="form-name" value="contact" />
   <p>
     <label>{{ $t('contact.name') }}<input class="inp" type="text" name="name" /></label>
   </p>
